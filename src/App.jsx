@@ -97,7 +97,7 @@ function App() {
                   Please click the link in the email to verify your account and
                   complete your registration.
                 </div>
-                <div className="details" className="bold">
+                <div className="details">
                   If you don’t see the email, kindly check your spam or junk
                   folder.
                 </div>

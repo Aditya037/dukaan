@@ -191,7 +191,6 @@ const HomeEle = () => {
                   setNewItem({ ...newItem, quantity: e.target.value })
                 }
               />
-
               <button className="cart-btn added" onClick={handleAddItem}>
                 Save Sweet
               </button>

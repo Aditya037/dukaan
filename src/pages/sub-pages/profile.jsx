@@ -187,7 +187,7 @@ const Profile = () => {
               {userData?.role === "admin" && !order.delivered && (
                 <div className="deliver-box">
                   <input
-                    className="inputs"
+                    className="inputs1"
                     placeholder="Enter 4-digit code"
                     value={pins[order.id] || ""}
                     onChange={e =>
@@ -195,7 +195,7 @@ const Profile = () => {
                     }
                   />
                   <button
-                    className="cart-btn added"
+                    className="cart-btn"
                     onClick={() => handleDeliver(order)}
                   >
                     Mark as Delivered
